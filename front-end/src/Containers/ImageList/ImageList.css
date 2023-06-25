@@ -1,0 +1,43 @@
+.image_list{
+  width: 100%;
+ padding-top: 6rem;
+
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ 
+}
+.image_list .heading{
+text-align: center;
+}
+
+.image_view{
+  display: flex;
+  padding-top: 4rem;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+ 
+  width: 80%;
+  gap: 5rem;
+  
+}
+.image_list .image img{
+  width: 15rem;
+  height: 15rem;
+  outline: .1rem solid black;
+}
+
+
+.image_add i{
+  padding: 1rem;
+  color: white;
+  background-color: var(--pri-blue);
+  border-radius: 50%;
+  font-size: 1.5rem;
+  position: fixed;
+  right: 12rem;
+  z-index: 2;
+  top: 35rem;
+ 
+}

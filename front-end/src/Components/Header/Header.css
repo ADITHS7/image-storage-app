@@ -1,0 +1,27 @@
+.header{
+  background-color: var(--pri-blue);
+  width: 100%;
+  height: 4rem;
+  color: white;
+  padding: .4rem;
+  z-index: 4;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.user_dtls{
+  padding-right: 2rem;
+  padding-top: .5rem;
+  font-size: 1.4rem;
+  position: relative;
+}
+
+nav{
+  position: absolute;
+  width: 10rem;
+  background-color: olive;
+  right: 0;
+  top: 4rem;
+}
