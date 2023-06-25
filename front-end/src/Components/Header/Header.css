@@ -1,27 +1,61 @@
-.header{
+.header {
   background-color: var(--pri-blue);
   width: 100%;
   height: 4rem;
   color: white;
-  padding: .4rem;
+  padding: 0.4rem;
   z-index: 4;
   position: fixed;
   display: flex;
   justify-content: space-between;
-  
+}
+.header .heading{
+  padding-left: 2rem;
 }
 
-.user_dtls{
-  padding-right: 2rem;
-  padding-top: .5rem;
+.user_dtls {
+  padding-right: 4rem;
+  padding-top: 0.5rem;
   font-size: 1.4rem;
   position: relative;
+  z-index: 5;
+  color: white;
 }
 
-nav{
-  position: absolute;
-  width: 10rem;
-  background-color: olive;
+nav {
+  background-color: gray;
   right: 0;
-  top: 4rem;
+  position: fixed;
+  z-index: 5;
+  margin-top: 3rem;
+  border-radius: 0.5rem;
+}
+
+.log_box {
+  padding: 2rem;
+}
+nav p {
+  font-weight: 500;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding-top: 1rem;
+}
+
+@media only screen and (max-width: 360px){
+  .header .heading h1{
+    font-size: 1.6rem;
+    padding-left: 0rem;
+    padding-top: .6rem;
+    position: fixed;
+    left: 1rem;
+  }
+
+  .user_dtls{
+    padding-top: 1rem;
+    padding-right: 1rem;
+  }
 }

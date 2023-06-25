@@ -1,10 +1,12 @@
-import React from 'react'
-import ImageView from '../Containers/ImageView/ImageView'
+import React from "react";
+import ImageView from "../Containers/ImageView/ImageView";
 
 const Image = () => {
   return (
-    <div><ImageView/></div>
-  )
-}
+    <div>
+      <ImageView />
+    </div>
+  );
+};
 
-export default Image
+export default Image;

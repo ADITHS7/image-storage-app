@@ -1,10 +1,12 @@
-import React from 'react'
-import AddImage from '../Containers/AddImage/AddImage'
+import React from "react";
+import AddImage from "../Containers/AddImage/AddImage";
 
 const AddImg = () => {
   return (
-    <div><AddImage/></div>
-  )
-}
+    <div>
+      <AddImage />
+    </div>
+  );
+};
 
-export default AddImg
+export default AddImg;

@@ -1,10 +1,12 @@
-import React from 'react'
-import ImageList from '../Containers/ImageList/ImageList'
+import React from "react";
+import ImageList from "../Containers/ImageList/ImageList";
 
 const Images = () => {
   return (
-    <div><ImageList/></div>
-  )
-}
+    <div>
+      <ImageList />
+    </div>
+  );
+};
 
-export default Images
+export default Images;

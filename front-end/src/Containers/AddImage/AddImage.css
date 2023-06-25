@@ -1,57 +1,52 @@
-.add_image{
+.add_image {
   display: flex;
   align-items: center;
   flex-direction: column;
   padding-top: 6rem;
 }
 
-.add_container{
+.add_container {
   outline: 1px solid black;
   height: 60vh;
- padding: 4rem 2rem;
- background-color: var(--pri-blue);
- opacity: .9;
- position: relative;
+  padding: 4rem 2rem;
+  background-color: var(--pri-blue);
+  opacity: 0.9;
+  position: relative;
 }
-.add_image h1{
+.add_image h1 {
   color: white;
- padding-bottom: 2rem;
- text-align: center;
- 
+  padding-bottom: 2rem;
+  text-align: center;
 }
-.form_first{
+.form_first {
   display: flex;
   gap: 4rem;
- background-color: white;
+  background-color: white;
 }
 
-input[type="file"]
-{
- display: none;
+input[type="file"] {
+  display: none;
 }
 
-.img_bg
-{
+.img_bg {
   width: 300px;
   height: 300px;
   background: var(--sec-white);
   position: relative;
- 
+
   color: var(--pri-black);
 }
 
-.img_bg img{
+.img_bg img {
   position: absolute;
   width: 300px;
   height: 300px;
   z-index: 1;
   top: -4rem;
-  left:-1.35rem;
-  
-  
+  left: -1.35rem;
 }
 
-.label_img{
+.label_img {
   text-align: center;
   padding: 30px;
   position: absolute;
@@ -59,22 +54,21 @@ input[type="file"]
   margin-left: 22px;
 }
 
-input{
+input {
   width: 100%;
   height: 50px;
   border: none;
-  border-bottom:1px solid black;
+  border-bottom: 1px solid black;
   margin: 10px 0px;
   font-size: 14px;
   padding-left: 10px;
 }
-.description{
+.description {
   outline: none;
   background-color: var(--pri-blue);
-  border:  transparent;
+  border: transparent;
 }
-.add_btn{
- 
+.add_btn {
   width: 100%;
   height: 3rem;
   border-radius: 5px;
@@ -82,10 +76,9 @@ input{
   border: none;
   color: white;
   font-weight: 300;
-  
 }
 
-.dlg_box{
+.dlg_box {
   height: 65vh;
   width: 50vh;
   background-color: var(--pri-blue);
@@ -101,7 +94,7 @@ input{
   z-index: 1;
 }
 
-.invalid_input{
+.invalid_input {
   position: absolute;
   color: red;
   font-size: 1rem;
@@ -109,21 +102,18 @@ input{
   left: 8rem;
   top: 2rem;
   text-align: center;
-  
 }
 
-
-.dlg_box i{
+.dlg_box i {
   font-size: 7rem;
   color: rgb(14, 110, 14);
-  
 }
 
-.dlg_box p{
+.dlg_box p {
   font-size: 1.5rem;
 }
 
-.dlg_box button{
+.dlg_box button {
   padding-top: 1rem;
   padding-bottom: 1rem;
   width: 150px;
@@ -132,4 +122,9 @@ input{
   background-color: rgb(14, 110, 14);
   outline: none;
   border: none;
+}
+@media only screen and (max-width: 360px) {
+  .dlg_box {
+    left: -3rem;
+  }
 }
