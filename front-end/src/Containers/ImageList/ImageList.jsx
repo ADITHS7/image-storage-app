@@ -29,13 +29,8 @@ const ImageList = () => {
         let src = "http://localhost:5000/uploads/" + items.url;
 
         return (
-          <div
-            className="image"
-            onClick={() => {
-              navigate(`/view/${items._id}`);
-            }}
-          >
-            <img src={src} alt="" />
+          <div className="image">
+            <img  src={src} alt="" />
           </div>
         );
       })
@@ -46,7 +41,6 @@ const ImageList = () => {
     <div className="image_list">
       <div className="heading">
         <h2 className="imageList_heading">YOUR PHOTOS</h2>
-        {items.length}
       </div>
       <div className="image_view">{items}</div>
       <div
